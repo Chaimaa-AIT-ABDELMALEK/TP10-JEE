@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Espace Utilisateur</title>
+</head>
+<body>
+
+<h2>Zone Utilisateur</h2>
+
+<p>
+    Cette page est accessible aux utilisateurs ayant le rôle USER ou ADMIN.
+</p>
+
+<br>
+
+<a th:href="@{/logout}">Se déconnecter</a>
+
+</body>
+</html>
